@@ -1,4 +1,4 @@
-import pandas as pd           #Dhivya Dharani S -- 1817114
+import pandas as pd          
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import confusion_matrix,classification_report
