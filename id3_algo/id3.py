@@ -7,7 +7,7 @@ features.remove("answer")
 
 class Node:
     def __init__(self):
-        self.children = []                    #1817114 Dhivya Dharani S
+        self.children = []             
         self.value = ""
         self.isLeaf = False
         self.pred = ""
