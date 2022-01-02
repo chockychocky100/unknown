@@ -1,4 +1,4 @@
-import os                                       # Dhivya Dharani S 1817114
+import os                                    
 from hmm.hmm import DiscreteHMM
 
 # Mapping input to variable's id
