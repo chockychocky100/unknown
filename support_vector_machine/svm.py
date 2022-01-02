@@ -19,7 +19,7 @@ Y_train = training_set.iloc[:,2].values
 X_test = test_set.iloc[:,0:2].values
 Y_test = test_set.iloc[:,2].values
 
-classifier = SVC(kernel='rbf', random_state = 5)
+classifier = SVC(kernel='linear', random_state = 5)
 classifier.fit(X_train,Y_train)
 
 Y_pred = classifier.predict(X_test)
@@ -32,7 +32,7 @@ print("\nAccuracy Of SVM For The Given Dataset : ", accuracy)
 le = LabelEncoder()
 Y_train = le.fit_transform(Y_train)
 
-classifier = SVC(kernel='rbf', random_state = 1)
+classifier = SVC(kernel='linear', random_state = 1)
 classifier.fit(X_train,Y_train)
 print('Accuracy Metrics')
 print(classification_report(Y_test,Y_pred))
