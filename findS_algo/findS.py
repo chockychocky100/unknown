@@ -1,4 +1,4 @@
-import pandas as pd    #1817114 Dhivya Dharani S
+import pandas as pd   
 import numpy as np
  
 #to read the data in the csv file
