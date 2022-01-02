@@ -1,7 +1,7 @@
 import numpy as np 
 import pandas as pd
 
-data = pd.read_csv('enjoysport.csv')    #1817114 Dhivya Dharani S
+data = pd.read_csv('enjoysport.csv') 
 concepts = np.array(data.iloc[:,0:-1])
 print("\nInstances are:\n",concepts)
 target = np.array(data.iloc[:,-1])
@@ -43,4 +43,4 @@ def learn(concepts, target):
 s_final, g_final = learn(concepts, target)
 
 print("Final Specific_h: ", s_final, sep="\n")
-print("Final General_h: ", g_final, sep="\n") # 1817114 Dhivya Dharani S 
+print("Final General_h: ", g_final, sep="\n")  
