@@ -1,4 +1,4 @@
-import pandas as pd                                             #1817114 ,  Dhivya Dharani S
+import pandas as pd                                             
 msg=pd.read_csv("naivetext.csv",names=['message','label'])        
 print('Total instances of the dataset:',msg.shape[0])
 msg['labelnum']=msg.label.map({'pos':1,'neg':0})
